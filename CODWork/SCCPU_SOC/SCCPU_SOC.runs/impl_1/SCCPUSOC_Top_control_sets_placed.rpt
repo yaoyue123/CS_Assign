@@ -1,0 +1,334 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.1 (win64) Build 1846317 Fri Apr 14 18:55:03 MDT 2017
+| Date         : Sun Oct 27 20:03:00 2019
+| Host         : PC-LIUQIN running 64-bit Service Pack 1  (build 7601)
+| Command      : report_control_sets -verbose -file SCCPUSOC_Top_control_sets_placed.rpt
+| Design       : SCCPUSOC_Top
+| Device       : xc7a100t
+-----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   271 |
+| Unused register locations in slices containing registers |  1126 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |             114 |           42 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              32 |           19 |
+| Yes          | No                    | Yes                    |            1024 |          718 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------+---------------------------------+---------------------------------+------------------+----------------+
+|   Clock Signal   |          Enable Signal          |         Set/Reset Signal        | Slice Load Count | Bel Load Count |
++------------------+---------------------------------+---------------------------------+------------------+----------------+
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[15][31]_i_1_n_0 | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[2][31]_i_1_n_0  | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[8][31]_i_1_n_0  | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[1][31]_i_1_n_0  | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[10][31]_i_1_n_0 | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[6][31]_i_1_n_0  | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[5][31]_i_1_n_0  | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[7][31]_i_1_n_0  | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[11][31]_i_1_n_0 | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[13][31]_i_1_n_0 | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[9][31]_i_1_n_0  | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[14][31]_i_1_n_0 | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[12][31]_i_1_n_0 | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[16][31]_i_1_n_0 | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[3][31]_i_1_n_0  | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[4][31]_i_1_n_0  | U_SCCPU/U_PC/AR[0]              |                1 |              1 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[8][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                2 |              3 |
+|  U_7SEG/seg7_clk |                                 | U_SCCPU/U_PC/AR[0]              |                1 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[5][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[13][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[1][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                2 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[15][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[10][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[6][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[12][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[14][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[9][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[7][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[2][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                1 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[16][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                2 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[3][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[11][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[4][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              3 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[10][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[10][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[11][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[11][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[11][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[11][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[11][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[11][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[11][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[12][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[12][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[12][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[12][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[12][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[12][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[12][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[13][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[13][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[13][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[13][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[13][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[13][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[13][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[14][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[14][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[14][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[14][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[14][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[14][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[14][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[15][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[15][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[15][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[15][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[15][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[15][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[15][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[16][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[16][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[16][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[16][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[16][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[16][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[16][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[17][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[17][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[17][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[17][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[17][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[17][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[17][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[17][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[18][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[18][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[18][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[18][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[18][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[18][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[18][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[18][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[5][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[5][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[5][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[5][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[5][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[5][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[5][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[6][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[6][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[6][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[6][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[6][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[6][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[6][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[7][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[7][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[7][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[7][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[7][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[7][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[7][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[8][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[8][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[8][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[8][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[8][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[8][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[8][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[9][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[9][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[9][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[9][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[9][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[9][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[9][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[19][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[19][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[19][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[19][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[19][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[19][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[19][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[19][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[1][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[1][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[1][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[1][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[1][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[1][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[1][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[20][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[20][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[20][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[20][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[20][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[20][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[20][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[20][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[21][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[21][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[21][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[21][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[21][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[21][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[21][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[21][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[22][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[22][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[22][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[22][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[22][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[22][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[22][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[22][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[23][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[23][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[23][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[23][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[23][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[23][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[23][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[23][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[24][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[24][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[24][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[24][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[24][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[24][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[24][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[24][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[25][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[25][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[25][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[25][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[25][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[25][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[25][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[25][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[26][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[26][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[26][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[26][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[26][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[26][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[26][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[26][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[27][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[27][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[27][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[27][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[27][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[27][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[27][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[27][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[28][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[28][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[28][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[28][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[28][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[28][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[28][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[28][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[29][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[29][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[29][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[29][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[29][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[29][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[29][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[29][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[10][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[2][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[2][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[2][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[2][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[2][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[2][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[2][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[30][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                1 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[30][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[30][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[30][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[30][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[30][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[30][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[30][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[31][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[31][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[31][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[31][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[31][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[31][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[31][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[31][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[10][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[3][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[3][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[3][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[3][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[3][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[10][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[3][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[3][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[10][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[4][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][31]_i_3_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[4][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][11]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[4][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][15]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[4][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][19]_i_2_n_0 |                3 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[4][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][23]_i_2_n_0 |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[10][31]_i_1_n_0 | U_SCCPU/U_RF/rf[31][27]_i_2_n_0 |                2 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[4][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][3]_i_2_n_0  |                4 |              4 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[4][31]_i_1_n_0  | U_SCCPU/U_RF/rf[31][7]_i_2_n_0  |                4 |              4 |
+|  Clk_CPU_BUFG    |                                 | U_SCCPU/U_PC/AR[0]              |               10 |             31 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/rf[0][31]_i_1_n_0  |                                 |               19 |             32 |
+|  clk_IBUF_BUFG   | U_SCCPU/U_RF/E[0]               | U_SCCPU/U_PC/AR[0]              |               27 |             32 |
+|  clk_IBUF_BUFG   |                                 | U_CLKDIV/AR[0]                  |               14 |             40 |
+|  clk_IBUF_BUFG   |                                 | U_SCCPU/U_PC/AR[0]              |               17 |             40 |
+|  Clk_CPU_BUFG    | U_SCCPU/U_RF/ram_we             |                                 |               16 |             64 |
++------------------+---------------------------------+---------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                    16 |
+| 3      |                    17 |
+| 4      |                   232 |
+| 16+    |                     6 |
++--------+-----------------------+
+
+

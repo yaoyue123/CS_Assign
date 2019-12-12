@@ -1,0 +1,146 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun Oct 27 19:16:28 2019
+# Process ID: 5612
+# Current directory: D:/CODWork/SCCPU_SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5740 D:\CODWork\SCCPU_SOC\SCCPU_SOC.xpr
+# Log file: D:/CODWork/SCCPU_SOC/vivado.log
+# Journal file: D:/CODWork/SCCPU_SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CODWork/SCCPU_SOC/SCCPU_SOC.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'c:/Users/Liu/Desktop/source/Testing Code/mipstestloop_fpga.coe'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2017.1/data/ip'.
+update_compile_order -fileset sources_1
+update_files -from_files D:/CODWork/SCCPU_SOC/SCCPU_SOC.ip_user_files/mem_init_files/mipstestloop_fpga.coe -to_files {{c:/Users/Liu/Desktop/source/Testing Code/mipstestloop_fpga.coe}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'c:/Users/Liu/Desktop/source/Testing Code/mipstestloop_fpga.coe' with file 'D:/CODWork/SCCPU_SOC/SCCPU_SOC.ip_user_files/mem_init_files/mipstestloop_fpga.coe'.
+update_files -from_files {{C:/Users/Liu/Desktop/source/Testing Code/mipstestloop_fpga.coe}} -to_files D:/CODWork/SCCPU_SOC/SCCPU_SOC.ip_user_files/mem_init_files/mipstestloop_fpga.coe -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'D:/CODWork/SCCPU_SOC/SCCPU_SOC.ip_user_files/mem_init_files/mipstestloop_fpga.coe' with file 'C:/Users/Liu/Desktop/source/Testing Code/mipstestloop_fpga.coe'.
+reset_run synth_1
+reset_run imem_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+INFO: [IP_Flow 19-1706] Not generating 'Synthesis' target for IP 'imem'. Target already exists and is up to date.
+WARNING: [Runs 36-53] Possible issues detected after target generation. Generation state is unexpected for target 'Synthesis'. Expected 'Generated', got 'Stale' for source 'D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/ip/imem/imem.xci'
+[Sun Oct 27 19:25:56 2019] Launched imem_synth_1, synth_1...
+Run output will be captured here:
+imem_synth_1: D:/CODWork/SCCPU_SOC/SCCPU_SOC.runs/imem_synth_1/runme.log
+synth_1: D:/CODWork/SCCPU_SOC/SCCPU_SOC.runs/synth_1/runme.log
+[Sun Oct 27 19:25:56 2019] Launched impl_1...
+Run output will be captured here: D:/CODWork/SCCPU_SOC/SCCPU_SOC.runs/impl_1/runme.log
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Top: SCCPUSOC_Top
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 970.391 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SCCPUSOC_Top' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/SCCPU_Top.v:3]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/clk_div.v:21]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (1#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/clk_div.v:21]
+INFO: [Synth 8-638] synthesizing module 'sccpu' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/sccpu.v:1]
+INFO: [Synth 8-638] synthesizing module 'ctrl' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/ctrl.v:4]
+INFO: [Synth 8-256] done synthesizing module 'ctrl' (2#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/ctrl.v:4]
+INFO: [Synth 8-638] synthesizing module 'PC' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/PC.v:1]
+INFO: [Synth 8-256] done synthesizing module 'PC' (3#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/PC.v:1]
+INFO: [Synth 8-638] synthesizing module 'NPC' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/NPC.v:3]
+INFO: [Synth 8-256] done synthesizing module 'NPC' (4#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/NPC.v:3]
+INFO: [Synth 8-638] synthesizing module 'RF' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/RF.v:2]
+WARNING: [Synth 8-6014] Unused sequential element i was removed.  [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/RF.v:16]
+WARNING: [Synth 8-5788] Register rf_reg[0] in module RF is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/RF.v:18]
+INFO: [Synth 8-256] done synthesizing module 'RF' (5#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/RF.v:2]
+INFO: [Synth 8-638] synthesizing module 'mux2' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/mux.v:2]
+	Parameter WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2' (6#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/mux.v:2]
+INFO: [Synth 8-638] synthesizing module 'mux2__parameterized0' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/mux.v:2]
+	Parameter WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'mux2__parameterized0' (6#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/mux.v:2]
+INFO: [Synth 8-638] synthesizing module 'EXT' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/EXT.v:2]
+INFO: [Synth 8-256] done synthesizing module 'EXT' (7#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/EXT.v:2]
+INFO: [Synth 8-638] synthesizing module 'alu' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/alu.v:3]
+INFO: [Synth 8-256] done synthesizing module 'alu' (8#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/alu.v:3]
+INFO: [Synth 8-256] done synthesizing module 'sccpu' (9#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU/sccpu.v:1]
+INFO: [Synth 8-638] synthesizing module 'imem' [D:/CODWork/SCCPU_SOC/.Xil/Vivado-5612-PC-LIUQIN/realtime/imem_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'imem' (10#1) [D:/CODWork/SCCPU_SOC/.Xil/Vivado-5612-PC-LIUQIN/realtime/imem_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'dm' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/dm.v:3]
+INFO: [Synth 8-256] done synthesizing module 'dm' (11#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/dm.v:3]
+INFO: [Synth 8-638] synthesizing module 'MIO_BUS' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/MIO_BUS.v:24]
+INFO: [Synth 8-256] done synthesizing module 'MIO_BUS' (12#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/MIO_BUS.v:24]
+INFO: [Synth 8-638] synthesizing module 'Multi_CH32' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/Multi_CH32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Multi_CH32' (13#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/Multi_CH32.v:23]
+INFO: [Synth 8-638] synthesizing module 'seg7x16' [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/seg7x16.v:21]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/seg7x16.v:87]
+INFO: [Synth 8-256] done synthesizing module 'seg7x16' (14#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/seg7x16.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SCCPUSOC_Top' (15#1) [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/imports/source/SCCPU_FPGATop/SCCPU_Top.v:3]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 976.008 ; gain = 5.617
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 976.008 ; gain = 5.617
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'd:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/sources_1/ip/imem/imem.dcp' for cell 'U_IM'
+INFO: [Project 1-479] Netlist was created with Vivado 2017.1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/constrs_1/imports/source/Nexys4DDR_CPU.xdc]
+Finished Parsing XDC File [D:/CODWork/SCCPU_SOC/SCCPU_SOC.srcs/constrs_1/imports/source/Nexys4DDR_CPU.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1287.266 ; gain = 316.875
+39 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1287.266 ; gain = 316.875
+close_design
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.1
+  **** Build date : Apr 14 2017-19:11:07
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292AA7AD3A
+set_property PROGRAM.FILE {D:/CODWork/SCCPU_SOC/SCCPU_SOC.runs/impl_1/SCCPUSOC_Top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Sun Oct 27 19:56:26 2019] Launched synth_1...
+Run output will be captured here: D:/CODWork/SCCPU_SOC/SCCPU_SOC.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Oct 27 20:02:21 2019] Launched impl_1...
+Run output will be captured here: D:/CODWork/SCCPU_SOC/SCCPU_SOC.runs/impl_1/runme.log
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 27 20:15:02 2019...

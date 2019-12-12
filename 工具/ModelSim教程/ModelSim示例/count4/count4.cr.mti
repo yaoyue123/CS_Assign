@@ -1,0 +1,15 @@
+D:/modelsim-test/count4/count4.v {1 {vlog -work work -O0 -vopt D:/modelsim-test/count4/count4.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module count4
+
+Top level modules:
+	count4
+
+} {} {}} D:/modelsim-test/count4/count_tb.v {1 {vlog -work work -O0 -vopt D:/modelsim-test/count4/count_tb.v
+Model Technology ModelSim SE vlog 10.1a Compiler 2012.02 Feb 22 2012
+-- Compiling module count_tb
+
+Top level modules:
+	count_tb
+
+} {} {}}

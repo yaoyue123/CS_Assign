@@ -1,0 +1,9 @@
+<interfaceDefinition version='1.2' language='verilog' kind='module' name='count4'>
+    <portList>
+
+      <port name='clk' direction='input' type='' kind=''> </port>
+      <port name='reset' direction='input' type='' kind=''> </port>
+      <port name='out' direction='output' type='[3:0]' kind='regvector' packedDimension='[3:0]'> </port>
+
+    </portList>
+</interfaceDefinition>

@@ -1,0 +1,88 @@
+# Reading D:/modeltech_10.1a/tcl/vsim/pref.tcl 
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile D:/CODWork/SCCPU_SIM/SCCPU_SIM.mpf 
+# Loading project SCCPU_SIM
+# Compile of sccomp.v was successful.
+vsim -gui -novopt work.sccomp_tb
+# vsim -gui -novopt work.sccomp_tb 
+# Loading work.sccomp_tb
+# Refreshing D:\CODWork\SCCPU_SIM\work.sccomp
+# Loading work.sccomp
+# Loading work.sccpu
+# Loading work.ctrl
+# Loading work.PC
+# Loading work.NPC
+# Loading work.RF
+# Loading work.mux2
+# Loading work.EXT
+# Loading work.alu
+# Loading work.dm
+# Loading work.im
+run 2000
+# r[ 2] = 0x00000005,
+# r[ 3] = 0x0000000c,
+# r[ 7] = 0x00000003,
+# r[ 4] = 0x00000007,
+# r[ 5] = 0x00000004,
+# r[ 5] = 0x0000000b,
+# r[ 4] = 0x00000000,
+# r[ 4] = 0x00000001,
+# r[ 7] = 0x0000000c,
+# r[ 7] = 0x00000007,
+# dmem[0x00000100] = 0x00000007,
+# r[ 2] = 0x00000007,
+# dmem[0x00000104] = 0x00000007,
+quit -sim
+# reading D:\modeltech_10.1a\win32/../modelsim.ini
+# Loading project SCCPUJAL_SIM
+# Compile of sccomp.v was successful.
+# reading D:\modeltech_10.1a\win32/../modelsim.ini
+# Loading project SCCPU_SIM
+# reading D:\modeltech_10.1a\win32/../modelsim.ini
+# Loading project MCCPU_SIM
+# Compile of mccomp.v was successful.
+vsim -gui -novopt work.mccomp_tb
+# vsim -gui -novopt work.mccomp_tb 
+# Loading work.mccomp_tb
+# Refreshing D:\CODWork\MCCPU_SIM\work.mccomp
+# Loading work.mccomp
+# Loading work.mccpu
+# Loading work.ctrl
+# Loading work.flopenr
+# Loading work.mux4
+# Loading work.mux2
+# Loading work.flopr
+# Loading work.RF
+# Loading work.EXT
+# Loading work.alu
+# Loading work.dm
+run 2000
+# r[ 2] = 0x00000005,
+# r[ 3] = 0x0000000c,
+# r[ 7] = 0x00000003,
+# r[ 4] = 0x00000007,
+# r[ 5] = 0x00000004,
+run 5000
+# r[ 5] = 0x0000000b,
+# r[ 4] = 0x00000000,
+# r[ 4] = 0x00000001,
+# r[ 7] = 0x0000000c,
+# r[ 7] = 0x00000007,
+# dmem[0x00000100] = 0x00000007,
+# r[ 2] = 0x00000007,
+# r[31] = 0x00000040,
+# dmem[0x00000104] = 0x00000007,
+quit -sim
+# reading D:\modeltech_10.1a\win32/../modelsim.ini
+# Loading project SCCPU_SIM
+# reading D:\modeltech_10.1a\win32/../modelsim.ini
+# Loading project SCCPUJAL_SIM
+quit

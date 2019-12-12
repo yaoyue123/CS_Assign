@@ -1,0 +1,186 @@
+# Reading D:/modeltech_10.1a/tcl/vsim/pref.tcl 
+# //  ModelSim SE 10.1a Feb 22 2012 
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile D:/CODWork/MCCPU_SIM/MCCPU_SIM.mpf 
+# Loading project MCCPU_SIM
+# reading D:\modeltech_10.1a\win32/../modelsim.ini
+# Loading project MCCPU_SIM
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of EXT.v was successful.
+# Compile of flopenr.v was successful.
+# Compile of flopr.v was successful.
+# Compile of mccpu.v was successful.
+# Compile of mux.v was successful.
+# Compile of RF.v was successful.
+# Compile of dm.v was successful.
+# Compile of mccomp.v was successful.
+# Compile of mccomp_tb.v was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.mccomp_tb
+# vsim -gui -novopt work.mccomp_tb 
+# Refreshing D:\CODWork\MCCPU_SIM\work.mccomp_tb
+# Loading work.mccomp_tb
+# Refreshing D:\CODWork\MCCPU_SIM\work.mccomp
+# Loading work.mccomp
+# Refreshing D:\CODWork\MCCPU_SIM\work.mccpu
+# Loading work.mccpu
+# Refreshing D:\CODWork\MCCPU_SIM\work.ctrl
+# Loading work.ctrl
+# Refreshing D:\CODWork\MCCPU_SIM\work.flopenr
+# Loading work.flopenr
+# Refreshing D:\CODWork\MCCPU_SIM\work.mux4
+# Loading work.mux4
+# Refreshing D:\CODWork\MCCPU_SIM\work.mux2
+# Loading work.mux2
+# Refreshing D:\CODWork\MCCPU_SIM\work.flopr
+# Loading work.flopr
+# Refreshing D:\CODWork\MCCPU_SIM\work.RF
+# Loading work.RF
+# Refreshing D:\CODWork\MCCPU_SIM\work.EXT
+# Loading work.EXT
+# Refreshing D:\CODWork\MCCPU_SIM\work.alu
+# Loading work.alu
+# Refreshing D:\CODWork\MCCPU_SIM\work.dm
+# Loading work.dm
+run 7000
+# r[ 2] = 0x00000005,
+# r[ 3] = 0x0000000c,
+# r[ 7] = 0x00000003,
+# r[ 4] = 0x00000007,
+# r[ 5] = 0x00000004,
+# r[ 5] = 0x0000000b,
+# r[ 4] = 0x00000000,
+# r[ 4] = 0x00000001,
+# r[ 7] = 0x0000000c,
+# r[ 7] = 0x00000007,
+# dmem[0x00000100] = 0x00000007,
+# r[ 2] = 0x00000007,
+# r[31] = 0x00000040,
+# dmem[0x00000104] = 0x00000007,
+quit -sim
+# reading D:\modeltech_10.1a\win32/../modelsim.ini
+# Loading project SCCPU_SIM
+# Compile of dm.v was successful.
+# Compile of im.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of EXT.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccpu.v was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.sccomp_tb
+# vsim -gui -novopt work.sccomp_tb 
+# Refreshing D:\CODWork\SCCPU_SIM\work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing D:\CODWork\SCCPU_SIM\work.sccomp
+# Loading work.sccomp
+# Refreshing D:\CODWork\SCCPU_SIM\work.sccpu
+# Loading work.sccpu
+# Refreshing D:\CODWork\SCCPU_SIM\work.ctrl
+# Loading work.ctrl
+# Refreshing D:\CODWork\SCCPU_SIM\work.PC
+# Loading work.PC
+# Refreshing D:\CODWork\SCCPU_SIM\work.NPC
+# Loading work.NPC
+# Refreshing D:\CODWork\SCCPU_SIM\work.RF
+# Loading work.RF
+# Refreshing D:\CODWork\SCCPU_SIM\work.mux2
+# Loading work.mux2
+# Refreshing D:\CODWork\SCCPU_SIM\work.EXT
+# Loading work.EXT
+# Refreshing D:\CODWork\SCCPU_SIM\work.alu
+# Loading work.alu
+# Refreshing D:\CODWork\SCCPU_SIM\work.dm
+# Loading work.dm
+# Refreshing D:\CODWork\SCCPU_SIM\work.im
+# Loading work.im
+run 2000
+# r[ 2] = 0x00000005,
+# r[ 3] = 0x0000000c,
+# r[ 7] = 0x00000003,
+# r[ 4] = 0x00000007,
+# r[ 5] = 0x00000004,
+# r[ 5] = 0x0000000b,
+# r[ 4] = 0x00000000,
+# r[ 4] = 0x00000001,
+# r[ 7] = 0x0000000c,
+# r[ 7] = 0x00000007,
+# dmem[0x00000100] = 0x00000007,
+# r[ 2] = 0x00000007,
+# dmem[0x00000104] = 0x00000007,
+quit -sim
+# reading D:\modeltech_10.1a\win32/../modelsim.ini
+# Loading project SCCPUJAL_SIM
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of EXT.v was successful.
+# Compile of mux.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of RF.v was successful.
+# Compile of sccpu.v was successful.
+# Compile of dm.v was successful.
+# Compile of im.v was successful.
+# Compile of sccomp.v was successful.
+# Compile of sccomp_tb.v was successful.
+# 13 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.sccomp_tb
+# vsim -gui -novopt work.sccomp_tb 
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.sccomp_tb
+# Loading work.sccomp_tb
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.sccomp
+# Loading work.sccomp
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.sccpu
+# Loading work.sccpu
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.ctrl
+# Loading work.ctrl
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.PC
+# Loading work.PC
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.NPC
+# Loading work.NPC
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.RF
+# Loading work.RF
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.mux4
+# Loading work.mux4
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.EXT
+# Loading work.EXT
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.mux2
+# Loading work.mux2
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.alu
+# Loading work.alu
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.dm
+# Loading work.dm
+# Refreshing D:\CODWork\SCCPUJAL_SIM\work.im
+# Loading work.im
+run 2000
+# r[ 2] = 0x00000005,
+# r[ 3] = 0x0000000c,
+# r[ 7] = 0x00000003,
+# r[ 4] = 0x00000007,
+# r[ 5] = 0x00000004,
+# r[ 5] = 0x0000000b,
+# r[ 4] = 0x00000000,
+# r[ 4] = 0x00000001,
+# r[ 7] = 0x0000000c,
+# r[ 7] = 0x00000007,
+# dmem[0x00000100] = 0x00000007,
+# r[ 2] = 0x00000007,
+# r[31] = 0x00000040,
+# dmem[0x00000104] = 0x00000007,
+quit

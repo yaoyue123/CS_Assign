@@ -1,0 +1,18 @@
+本课程使用的软件说明（百度盘课程资料均可下载  工具-->软件）
+
+必须使用的软件：
+1) MARS, 它是 MIPS 汇编语言的模拟机。提供的 Mars4_5.jar 无需安装，直接使用。但需要Java环境支持，jdk或jre均可，提供了 jdk-7u60-windows-x64.exe 和 jre_8u60_windows_i586_V8.0.600.27.1439954468.exe，装哪个均可，大家也可到Oracle 官网下载；
+
+2) ModelSim，ModelSim是HDL语言仿真软件，提供了 modelsim se 10.1a emouse.zip (32位) 和 modelsim-win64-10.1c-se.zip *（64位），大家自行选择安装某个版本。安装所空间 ~1GB
+注意：安装目录不能包含中文
+
+3) Vivado, 是FPGA厂商Xilinx公司发布的集成设计环境。该安装软件解压后约 20GB+，安装所需空间 ~30GB。如果同学们自己的电脑装不下也可以不安装，实验室电脑已经安装好了，做好仿真后，使用实验室的电脑上的Vivado下载到开发板上。
+注意：安装目录不能包含中文。
+安装选择第二项 Vivado HL Design Edition
+实验课的课程前期不使用。
+
+可选软件：
+4) mipsasm, 浙大一位同学开发的mips 汇编语言工具，可以生成汇编代码或者反汇编，也可生成coe文件。mipsasm-1.0.2 文件夹中包含了几个平台的版本，大家选一个使用，无需安装。
+
+5）notepad++，文本编辑器，编写verilog代码有关键字和高亮提示，比较方便。
+提供了 npp.7.6.3.Installer.exe 和 npp.7.6.3.Installer.x64.exe

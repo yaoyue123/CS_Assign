@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun Oct 27 15:25:57 2019
+# Process ID: 1496
+# Current directory: D:/CODWork/SCCPUJAL_SOC/SCCPUJAL_SOC.runs/synth_1
+# Command line: vivado.exe -log SCCPUSOC_Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SCCPUSOC_Top.tcl
+# Log file: D:/CODWork/SCCPUJAL_SOC/SCCPUJAL_SOC.runs/synth_1/SCCPUSOC_Top.vds
+# Journal file: D:/CODWork/SCCPUJAL_SOC/SCCPUJAL_SOC.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source SCCPUSOC_Top.tcl -notrace

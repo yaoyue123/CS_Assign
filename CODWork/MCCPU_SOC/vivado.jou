@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sun Oct 27 20:36:32 2019
+# Process ID: 6392
+# Current directory: D:/CODWork/MCCPU_SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5644 D:\CODWork\MCCPU_SOC\MCCPU_SOC.xpr
+# Log file: D:/CODWork/MCCPU_SOC/vivado.log
+# Journal file: D:/CODWork/MCCPU_SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CODWork/MCCPU_SOC/MCCPU_SOC.xpr
+update_compile_order -fileset sources_1

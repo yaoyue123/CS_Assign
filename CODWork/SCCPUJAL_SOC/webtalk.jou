@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sat Oct 26 15:45:14 2019
+# Process ID: 7136
+# Current directory: d:/CODWork/SCCPUJAL_SOC
+# Command line: wbtcv.exe -mode batch -source D:/CODWork/MCCPUFULL_SOC/MCCPUFULL_SOC.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: d:/CODWork/SCCPUJAL_SOC/webtalk.log
+# Journal file: d:/CODWork/SCCPUJAL_SOC\webtalk.jou
+#-----------------------------------------------------------
+source D:/CODWork/MCCPUFULL_SOC/MCCPUFULL_SOC.hw/webtalk/labtool_webtalk.tcl -notrace

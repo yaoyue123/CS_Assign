@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1572159703">
+  <File Type="RDS-PROPCONSTRS" Name="MCCPUSOC_Top_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="MCCPUSOC_Top.tcl"/>
+  <File Type="RDS-RDS" Name="MCCPUSOC_Top.vds"/>
+  <File Type="RDS-UTIL" Name="MCCPUSOC_Top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="MCCPUSOC_Top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="MCCPUSOC_Top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="MCCPUSOC_Top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="MCCPUSOC_Top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/EXT.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU/EXT.v"/>
+        <Attr Name="ImportTime" Val="1571500074"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/FPGATop/MIO_BUS.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU_FPGATop/MIO_BUS.v"/>
+        <Attr Name="ImportTime" Val="1571893928"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/FPGATop/Multi_CH32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU_FPGATop/Multi_CH32.v"/>
+        <Attr Name="ImportTime" Val="1571893972"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/RF.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU/RF.v"/>
+        <Attr Name="ImportTime" Val="1571500702"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/ctrl_encode_def.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU/ctrl_encode_def.v"/>
+        <Attr Name="ImportTime" Val="1551514920"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU/alu.v"/>
+        <Attr Name="ImportTime" Val="1571749720"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/FPGATop/clk_div.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU_FPGATop/clk_div.v"/>
+        <Attr Name="ImportTime" Val="1571893896"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU/ctrl.v"/>
+        <Attr Name="ImportTime" Val="1571889930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/flopenr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU/flopenr.v"/>
+        <Attr Name="ImportTime" Val="1571813108"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/flopr.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU/flopr.v"/>
+        <Attr Name="ImportTime" Val="1571662242"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/mccpu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU/mccpu.v"/>
+        <Attr Name="ImportTime" Val="1571813424"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/mux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU/mux.v"/>
+        <Attr Name="ImportTime" Val="1571500140"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/FPGATop/seg7x16.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU_FPGATop/seg7x16.v"/>
+        <Attr Name="ImportTime" Val="1571893982"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/MCCPU/FPGATop/MCCPU_Top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/MCCPU_FPGATop/MCCPU_Top.v"/>
+        <Attr Name="ImportTime" Val="1572069325"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="c:/Users/Liu/Desktop/source/Testing Code/mipstestloopjal_fpga.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MCCPUSOC_Top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/source/Nexys4DDR_CPU.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Liu/Desktop/source/Nexys4DDR_CPU.xdc"/>
+        <Attr Name="ImportTime" Val="1548777796"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="dmem"/>
+</GenRun>
