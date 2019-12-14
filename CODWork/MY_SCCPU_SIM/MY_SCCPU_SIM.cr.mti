@@ -1,0 +1,94 @@
+D:/CODWork/MY_SCCPU_SIM/ctrl.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/ctrl.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} D:/CODWork/MY_SCCPU_SIM/sccomp.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/sccomp.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sccomp
+
+Top level modules:
+	sccomp
+
+} {} {}} D:/CODWork/MY_SCCPU_SIM/sccpu.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/sccpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sccpu
+
+Top level modules:
+	sccpu
+
+} {} {}} D:/CODWork/MY_SCCPU_SIM/im.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/im.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} D:/CODWork/MY_SCCPU_SIM/dm.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/dm.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} D:/CODWork/MY_SCCPU_SIM/sccomp_tb.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/sccomp_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sccomp_tb
+
+Top level modules:
+	sccomp_tb
+
+} {} {}} D:/CODWork/MY_SCCPU_SIM/PC.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/PC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} D:/CODWork/MY_SCCPU_SIM/ctrl_encode_def.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/ctrl_encode_def.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+
+} {} {}} D:/CODWork/MY_SCCPU_SIM/RF.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/RF.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} D:/CODWork/MY_SCCPU_SIM/NPC.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/NPC.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}} D:/CODWork/MY_SCCPU_SIM/EXT.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/EXT.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} D:/CODWork/MY_SCCPU_SIM/alu.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/CODWork/MY_SCCPU_SIM/mux.v {1 {vlog -work work -stats=none D:/CODWork/MY_SCCPU_SIM/mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux2
+-- Compiling module mux4
+-- Compiling module mux8
+-- Compiling module mux16
+
+Top level modules:
+	mux2
+	mux4
+	mux8
+	mux16
+
+} {} {}}
