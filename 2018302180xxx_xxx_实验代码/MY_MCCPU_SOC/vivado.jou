@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Dec 10 18:38:37 2019
+# Process ID: 948
+# Current directory: D:/CODWork/MY_MCCPU_SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3132 D:\CODWork\MY_MCCPU_SOC\MY_MCCPU_SOC.xpr
+# Log file: D:/CODWork/MY_MCCPU_SOC/vivado.log
+# Journal file: D:/CODWork/MY_MCCPU_SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/CODWork/MY_MCCPU_SOC/MY_MCCPU_SOC.xpr
+update_compile_order -fileset sources_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/CODWork/MY_MCCPU_SOC/MY_MCCPU_SOC.runs/impl_1/MCCPUSOC_Top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/CODWork/MY_MCCPU_SOC/MY_MCCPU_SOC.runs/impl_1/MCCPUSOC_Top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

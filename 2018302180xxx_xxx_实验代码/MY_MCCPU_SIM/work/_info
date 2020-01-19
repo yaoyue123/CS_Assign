@@ -1,0 +1,306 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/CODWork/MY_SCCPU_SIM
+valu
+Z0 !s110 1575971781
+!i10b 1
+!s100 PD^nNSM<@73hO0^IPQXTZ2
+Iai>AN>_XQjIS^?8F<?n261
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/CODWork/MY_MCCPU_SIM
+w1575786369
+8D:/CODWork/MY_MCCPU_SIM/alu.v
+FD:/CODWork/MY_MCCPU_SIM/alu.v
+L0 17
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1575971781.000000
+!s107 ctrl_encode_def.v|D:/CODWork/MY_MCCPU_SIM/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CODWork/MY_MCCPU_SIM/alu.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vctrl
+R0
+!i10b 1
+!s100 G2hgB?4UAeG^<ng]Z=bR01
+IJEKS^kfFne3VN2LSL@nG>0
+R1
+R2
+w1575964405
+8D:/CODWork/MY_MCCPU_SIM/ctrl.v
+FD:/CODWork/MY_MCCPU_SIM/ctrl.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CODWork/MY_MCCPU_SIM/ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CODWork/MY_MCCPU_SIM/ctrl.v|
+!i113 1
+R5
+R6
+vdm
+Z7 !s110 1575971784
+!i10b 1
+!s100 WiJ40XKP8aUYcRI<FS8DL3
+I_^eSninIBl`0R5ceI6U@A1
+R1
+R2
+Z8 w1575384865
+8D:/CODWork/MY_MCCPU_SIM/dm.v
+FD:/CODWork/MY_MCCPU_SIM/dm.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z9 !s108 1575971784.000000
+!s107 D:/CODWork/MY_MCCPU_SIM/dm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CODWork/MY_MCCPU_SIM/dm.v|
+!i113 1
+R5
+R6
+vEXT
+Z10 !s110 1575971782
+!i10b 1
+!s100 d`GCF]Xe]JFP6O7KiSl;j1
+IfF:L?2kWefLdokC>35MaY3
+R1
+R2
+R8
+8D:/CODWork/MY_MCCPU_SIM/EXT.v
+FD:/CODWork/MY_MCCPU_SIM/EXT.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z11 !s108 1575971782.000000
+!s107 D:/CODWork/MY_MCCPU_SIM/EXT.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CODWork/MY_MCCPU_SIM/EXT.v|
+!i113 1
+R5
+R6
+n@e@x@t
+vflopenr
+R10
+!i10b 1
+!s100 aa[fbnBV=0Z<hjkS9O5en2
+I^PnPa8m;b737JJSd`8eX31
+R1
+R2
+R8
+8D:/CODWork/MY_MCCPU_SIM/flopenr.v
+FD:/CODWork/MY_MCCPU_SIM/flopenr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/CODWork/MY_MCCPU_SIM/flopenr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CODWork/MY_MCCPU_SIM/flopenr.v|
+!i113 1
+R5
+R6
+vflopr
+Z12 !s110 1575971783
+!i10b 1
+!s100 cKR]Ja2?a7S:WW`X8LiH32
+IU:R>4ibScX`@0UF0CS:Fj3
+R1
+R2
+R8
+8D:/CODWork/MY_MCCPU_SIM/flopr.v
+FD:/CODWork/MY_MCCPU_SIM/flopr.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 D:/CODWork/MY_MCCPU_SIM/flopr.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CODWork/MY_MCCPU_SIM/flopr.v|
+!i113 1
+R5
+R6
+vmccomp
+R7
+!i10b 1
+!s100 nLI2YIZM6AVMLGGC=X>T:2
+ILXLc0W[KGc`]nAJfMLJ2U0
+R1
+R2
+R8
+8D:/CODWork/MY_MCCPU_SIM/mccomp.v
+FD:/CODWork/MY_MCCPU_SIM/mccomp.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/CODWork/MY_MCCPU_SIM/mccomp.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CODWork/MY_MCCPU_SIM/mccomp.v|
+!i113 1
+R5
+R6
+vmccomp_tb
+!s110 1575971785
+!i10b 1
+!s100 1V4H8Ze<<2;gM1CN`hFII1
+I_IY<>6V[SOI57j]?Di3=f2
+R1
+R2
+w1575971777
+8D:/CODWork/MY_MCCPU_SIM/mccomp_tb.v
+FD:/CODWork/MY_MCCPU_SIM/mccomp_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1575971785.000000
+!s107 D:/CODWork/MY_MCCPU_SIM/mccomp_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CODWork/MY_MCCPU_SIM/mccomp_tb.v|
+!i113 1
+R5
+R6
+vmccpu
+R12
+!i10b 1
+!s100 9_8YYZBLWaiMM4h<]Xi=;2
+IWDN`JDD9Sj7dUaX0@B[7_0
+R1
+R2
+w1575963603
+8D:/CODWork/MY_MCCPU_SIM/mccpu.v
+FD:/CODWork/MY_MCCPU_SIM/mccpu.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z13 !s108 1575971783.000000
+!s107 D:/CODWork/MY_MCCPU_SIM/mccpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CODWork/MY_MCCPU_SIM/mccpu.v|
+!i113 1
+R5
+R6
+vmux16
+R12
+!i10b 1
+!s100 _kD]@DiV[:SJ[]_:lBKV[0
+IIN]amhhN2OA2fgXTP2mJF3
+R1
+R2
+R8
+Z14 8D:/CODWork/MY_MCCPU_SIM/mux.v
+Z15 FD:/CODWork/MY_MCCPU_SIM/mux.v
+L0 71
+R3
+r1
+!s85 0
+31
+R13
+Z16 !s107 D:/CODWork/MY_MCCPU_SIM/mux.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|D:/CODWork/MY_MCCPU_SIM/mux.v|
+!i113 1
+R5
+R6
+vmux2
+R12
+!i10b 1
+!s100 QXC^TY7h[nMB8eh1LThKL1
+IWkTj^LK1IChTM:_055Zg32
+R1
+R2
+R8
+R14
+R15
+L0 2
+R3
+r1
+!s85 0
+31
+R13
+R16
+R17
+!i113 1
+R5
+R6
+vmux4
+R12
+!i10b 1
+!s100 3KQ[c;ZUY31^gKT9SAAk20
+I66MRM^ULz=9OAhTd04KJ71
+R1
+R2
+R8
+R14
+R15
+L0 15
+R3
+r1
+!s85 0
+31
+R13
+R16
+R17
+!i113 1
+R5
+R6
+vmux8
+R12
+!i10b 1
+!s100 FLg[0F=fBIb=LWfFP8G0M0
+IlH16iILVD21WQC0KfejoD3
+R1
+R2
+R8
+R14
+R15
+L0 40
+R3
+r1
+!s85 0
+31
+R13
+R16
+R17
+!i113 1
+R5
+R6
+vRF
+R7
+!i10b 1
+!s100 e?U@1Fe^@gYOeA1VZZ@]^0
+I5`zf6NJnZ=j`7j^[]HG4b1
+R1
+R2
+R8
+8D:/CODWork/MY_MCCPU_SIM/RF.v
+FD:/CODWork/MY_MCCPU_SIM/RF.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+!s107 D:/CODWork/MY_MCCPU_SIM/RF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/CODWork/MY_MCCPU_SIM/RF.v|
+!i113 1
+R5
+R6
+n@r@f

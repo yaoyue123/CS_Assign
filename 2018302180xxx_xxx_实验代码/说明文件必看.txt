@@ -1,0 +1,27 @@
+目录结构：
+
+D盘/
+└── CODWork/
+    ├── MY_MCCPU_SIM/
+    ├── MY_MCCPU_SOC/
+    ├── MY_SCCPU_SIM/
+    ├── MY_SCCPU_SOC/
+    ├── 测试dat文件/
+    ├── source/
+    └── 说明文件.txt
+
+*注意*：请将工程文件放于"D:/CODWork/"目录下，具体如上所示，以防因路径问题导致工程文件不能运行。
+
+包含以下工程
+
+MY_SCCPU_SIM 实现了拓展指令单周期CPU的 ModelSim 工程
+MY_SCCPU_SOC 实现了拓展指令单周期CPU的 Vivado 工程
+
+MY_MCCPU_SIM 实现了拓展指令多周期CPU的 ModelSim 工程
+MY_MCCPU_SOC 实现了拓展指令多周期CPU的 Vivado 工程
+
+单周期/多周期均已上板成功，具体图片与过程见实验报告
+
+测试dat文件文件夹 包含各个拓展指令的独立测试dat文件
+
+source文件夹内含有必需的FPGAtop文件

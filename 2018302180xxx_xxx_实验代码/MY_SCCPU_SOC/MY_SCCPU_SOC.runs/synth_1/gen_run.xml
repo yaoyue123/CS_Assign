@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1575973960">
+  <File Type="PA-TCL" Name="SCCPUSOC_Top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="SCCPUSOC_Top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="SCCPUSOC_Top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="SCCPUSOC_Top.vds"/>
+  <File Type="RDS-UTIL" Name="SCCPUSOC_Top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="SCCPUSOC_Top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="SCCPUSOC_Top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="SCCPUSOC_Top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="SCCPUSOC_Top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/EXT.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/EXT.v"/>
+        <Attr Name="ImportTime" Val="1561482930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/source/SCCPU_FPGATop/MIO_BUS.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../source/SCCPU_FPGATop/MIO_BUS.v"/>
+        <Attr Name="ImportTime" Val="1551203864"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/source/SCCPU_FPGATop/Multi_CH32.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../source/SCCPU_FPGATop/Multi_CH32.v"/>
+        <Attr Name="ImportTime" Val="1551527432"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/ctrl_encode_def.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/ctrl_encode_def.v"/>
+        <Attr Name="ImportTime" Val="1561482930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/NPC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/NPC.v"/>
+        <Attr Name="ImportTime" Val="1575892898"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/PC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/PC.v"/>
+        <Attr Name="ImportTime" Val="1561482930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/RF.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/RF.v"/>
+        <Attr Name="ImportTime" Val="1561482930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/alu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/alu.v"/>
+        <Attr Name="ImportTime" Val="1561482930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/source/SCCPU_FPGATop/clk_div.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../source/SCCPU_FPGATop/clk_div.v"/>
+        <Attr Name="ImportTime" Val="1572142224"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/ctrl.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/ctrl.v"/>
+        <Attr Name="ImportTime" Val="1575960828"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/source/SCCPU_FPGATop/dm.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../source/SCCPU_FPGATop/dm.v"/>
+        <Attr Name="ImportTime" Val="1572064098"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/mux.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/mux.v"/>
+        <Attr Name="ImportTime" Val="1561482930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/sccpu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/sccpu.v"/>
+        <Attr Name="ImportTime" Val="1575880110"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/source/SCCPU_FPGATop/seg7x16.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../source/SCCPU_FPGATop/seg7x16.v"/>
+        <Attr Name="ImportTime" Val="1551458036"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/source/SCCPU_FPGATop/SCCPU_Top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../source/SCCPU_FPGATop/SCCPU_Top.v"/>
+        <Attr Name="ImportTime" Val="1572143952"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/im.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/im.v"/>
+        <Attr Name="ImportTime" Val="1561482930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/sccomp.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/sccomp.v"/>
+        <Attr Name="ImportTime" Val="1561482930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/sccomp_tb.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/sccomp_tb.v"/>
+        <Attr Name="ImportTime" Val="1575971668"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/CODWork/MY_SCCPU_SIM/dm.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../MY_SCCPU_SIM/dm.v"/>
+        <Attr Name="ImportTime" Val="1561482930"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/studentnosort.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="SCCPUSOC_Top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/source/Nexys4DDR_CPU.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../source/Nexys4DDR_CPU.xdc"/>
+        <Attr Name="ImportTime" Val="1548777796"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="imem"/>
+</GenRun>
